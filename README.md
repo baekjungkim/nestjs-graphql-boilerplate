@@ -25,6 +25,7 @@ RUN_MIGRATIONS=true
 <span style="color:pink;">**postgres docker 사용시**</span>
 
 > .env 와 start-db.sh 의 세팅이 같아야함.
+> dbuser 는 postgres 로 고정
 
 ```bash
 # 도커 이미지 빌드
